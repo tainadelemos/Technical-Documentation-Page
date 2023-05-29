@@ -1,0 +1,83 @@
+h1 {
+  font-size: 35;
+}
+p {
+  font-size: 15;
+font-weight: lighter;
+font-family: sans;
+}
+h2 {
+  font-size: 30;
+}
+h1, h2, p {
+  display: block;
+}
+h1, h2 {
+  font-family: Sans-serif;
+  text-align: left;
+}
+#navbar {
+  text-align: left;
+  top: 0px;
+  margin: 0px;
+  left: 0px;
+  width: 300px;
+  background-color: #f3f3f3;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-size: 15;
+  font-family: sans-serif;
+  border: 1px solid black;
+}
+header {
+  font-size: 30;
+}
+body {
+background-color: #f3f3f3;
+align: right;
+ margin-left: 320px;
+ height: 100px;
+}
+li {
+  font-size: 15;
+  margin-left: 10px;
+}
+#space {
+  height: 10px;
+}
+#How-the-web-works {
+  margin-left: 10px;
+  font-size: 25;
+  margin-top: 3px;
+}
+#footer {
+  height: 10px;
+}
+.nav-link {
+  color: black;
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; 
+color: grey;}
+
+
+a:active { text-decoration: none; }
+#main-header {
+  font-size: ;
+}
+
+
+@media screen and (max-width: 700px) {
+  #navbar {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+  }
+}
+
